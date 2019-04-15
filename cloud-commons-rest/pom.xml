@@ -3,6 +3,7 @@
          xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.sech.commons</groupId>
     <artifactId>cloud-commons-rest</artifactId>
     <packaging>jar</packaging>
 
@@ -10,7 +11,7 @@
     <description>远程调用</description>
 
     <parent>
-        <groupId>com.github.sech</groupId>
+        <groupId>com.sech</groupId>
         <artifactId>cloud-commons</artifactId>
         <version>${cloud.commons.version}</version>
     </parent>
@@ -18,12 +19,12 @@
     <dependencies>		
 		<!-- cloud-commons-config -->
         <dependency>
-			<groupId>com.github.sech</groupId>
+			<groupId>com.sech.commons</groupId>
 			<artifactId>cloud-commons-config</artifactId>
         </dependency>
 		
 		<dependency>
-			<groupId>com.github.sech</groupId>
+			<groupId>com.sech.commons</groupId>
 			<artifactId>cloud-commons-core</artifactId>
         </dependency>
 		

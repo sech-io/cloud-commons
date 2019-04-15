@@ -2,6 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.sech.commons</groupId>
     <artifactId>cloud-commons-redis</artifactId>
     <packaging>jar</packaging>
 
@@ -9,7 +10,7 @@
     <description>分布式内存</description>
 
     <parent>
-        <groupId>com.github.sech</groupId>
+        <groupId>com.sech</groupId>
         <artifactId>cloud-commons</artifactId>
         <version>${cloud.commons.version}</version>
     </parent>
@@ -17,13 +18,13 @@
     <dependencies>
     	<!-- cloud-commons-core -->
         <dependency>
-			<groupId>com.github.sech</groupId>
+			<groupId>com.sech.commons</groupId>
 			<artifactId>cloud-commons-core</artifactId>
         </dependency>
 		
 		<!-- cloud-commons-config -->
         <dependency>
-			<groupId>com.github.sech</groupId>
+			<groupId>com.sech.commons</groupId>
 			<artifactId>cloud-commons-config</artifactId>
         </dependency>
 		
