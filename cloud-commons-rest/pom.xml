@@ -4,7 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-commons-rest</artifactId>
-    <groupId>com.github.sech.commons</groupId>
     <packaging>jar</packaging>
 
     <name>cloud-commons-rest</name>
@@ -13,18 +12,18 @@
     <parent>
         <groupId>com.github.sech</groupId>
         <artifactId>cloud-commons</artifactId>
-        <version>${cloud-commons.version}</version>
+        <version>${cloud.commons.version}</version>
     </parent>
 
     <dependencies>		
 		<!-- cloud-commons-config -->
         <dependency>
-			<groupId>com.github.sech.commons</groupId>
+			<groupId>com.github.sech</groupId>
 			<artifactId>cloud-commons-config</artifactId>
         </dependency>
 		
 		<dependency>
-			<groupId>com.github.sech.commons</groupId>
+			<groupId>com.github.sech</groupId>
 			<artifactId>cloud-commons-core</artifactId>
         </dependency>
 		

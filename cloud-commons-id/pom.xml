@@ -4,7 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-commons-id</artifactId>
-    <groupId>com.github.sech.commons</groupId>
     <packaging>jar</packaging>
 
     <name>cloud-commons-id</name>
@@ -13,7 +12,7 @@
     <parent>
         <groupId>com.github.sech</groupId>
         <artifactId>cloud-commons</artifactId>
-        <version>${cloud-commons.version}</version>
+        <version>${cloud.commons.version}</version>
     </parent>
 
     <dependencies>
@@ -26,7 +25,7 @@
 
         <!-- cloud-commons-core -->
         <dependency>
-            <groupId>com.github.sech.commons</groupId>
+            <groupId>com.github.sech</groupId>
             <artifactId>cloud-commons-core</artifactId>
         </dependency>
 
@@ -36,15 +35,15 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.sech.commons</groupId>
+            <groupId>com.github.sech</groupId>
             <artifactId>cloud-commons-config</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.sech.commons</groupId>
+            <groupId>com.github.sech</groupId>
             <artifactId>cloud-commons-redis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.sech.commons</groupId>
+            <groupId>com.github.sech</groupId>
             <artifactId>cloud-commons-utils</artifactId>
         </dependency>
 
