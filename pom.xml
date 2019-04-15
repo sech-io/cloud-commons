@@ -372,14 +372,12 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-releases</id>
-            <name>sonatype repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/51734-release-W3DGF5/</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/51734-snapshot-RLGUto/</url>
         </snapshotRepository>
     </distributionManagement>
 
