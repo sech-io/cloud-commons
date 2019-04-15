@@ -42,18 +42,68 @@
 3、项目工程依赖
 ~~~
 <dependency>
-  <groupId>com.github.sech.commons</groupId>
-  <artifactId>cloud-commons-utils</artifactId>
-  <version>${cloud-commons.version}</version>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-utils</artifactId>
+    <version>${cloud-commons.version}</version>
 </dependency>
+
 <dependency>
-  <groupId>com.github.sech.commons</groupId>
-  <artifactId>cloud-commons-base</artifactId>
-  <version>${cloud-commons.version}</version>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-base</artifactId>
+    <version>${cloud-commons.version}</version>
 </dependency>
+
 <dependency>
-  <groupId>com.github.sech.commons</groupId>
-  <artifactId>cloud-commons-pay</artifactId>
-  <version>${cloud-commons.version}</version>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-pay</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-config</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-core</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-file</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-id</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-rabbitmq</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-redis</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-rest</artifactId>
+    <version>${cloud-commons.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.sech.commons</groupId>
+    <artifactId>cloud-commons-swagger</artifactId>
+    <version>${cloud-commons.version}</version>
 </dependency>
 ~~~
