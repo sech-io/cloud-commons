@@ -41,7 +41,7 @@
 </repositories>
 ~~~
 
-2、版本号查看[https://oss.sonatype.org/content/repositories/snapshots/com/github/sech/](https://oss.sonatype.org/content/repositories/snapshots/com/github/sech/)
+2、版本号查看[https://oss.sonatype.org/content/repositories/snapshots/com/sech/commons/](https://oss.sonatype.org/content/repositories/snapshots/com/sech/commons/)
 
 3、项目工程依赖
 ~~~
