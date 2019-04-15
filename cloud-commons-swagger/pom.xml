@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-commons-swagger</artifactId>
+    <groupId>com.github.sech.commons</groupId>
+    <packaging>jar</packaging>
+
+    <name>cloud-commons-swagger</name>
+    <description>API管理</description>
+
+    <parent>
+        <groupId>com.github.sech</groupId>
+        <artifactId>cloud-commons</artifactId>
+        <version>${cloud-commons.version}</version>
+    </parent>
+
+    <dependencies>		
+		<!-- cloud-commons-config -->
+        <dependency>
+			<groupId>com.github.sech.commons</groupId>
+			<artifactId>cloud-commons-config</artifactId>
+        </dependency>
+		
+    	<!-- lombok -->
+    	<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+        
+        <!-- swagger cloud -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+		</dependency>
+    </dependencies>
+</project>

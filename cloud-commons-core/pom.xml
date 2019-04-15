@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>cloud-commons-core</artifactId>
+    <groupId>com.github.sech.commons</groupId>
+    <packaging>jar</packaging>
+
+    <name>cloud-commons-core</name>
+    <description>核心依赖</description>
+
+    <parent>
+        <groupId>com.github.sech</groupId>
+        <artifactId>cloud-commons</artifactId>
+        <version>${cloud-commons.version}</version>
+    </parent>
+
+    <dependencies>
+
+		<dependency>
+			<groupId>com.github.sech.commons</groupId>
+			<artifactId>cloud-commons-utils</artifactId> 
+		</dependency>
+		<dependency>
+			<groupId>com.github.sech.commons</groupId>
+			<artifactId>cloud-commons-base</artifactId>
+		</dependency>
+			
+    	<!-- lombok -->
+    	<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		
+		<!-- test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- spring-cloud-starter-config 分布式配置-客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        
+        <!-- spring-cloud-starter-netflix-eureka-client 服务发现-客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        
+        <!-- spring-cloud-starter-netflix-ribbon 服务发现-负载均衡 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+        
+        <!-- spring-cloud-starter-netflix-hystrix 断路器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        
+        <dependency>
+		    <groupId>commons-codec</groupId>
+		    <artifactId>commons-codec</artifactId>
+		</dependency>
+    </dependencies>
+</project>
