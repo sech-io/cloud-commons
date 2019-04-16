@@ -64,7 +64,6 @@
     <modules>
         <module>cloud-commons-base</module>
         <module>cloud-commons-utils</module>
-        <module>cloud-commons-pay</module>
         <module>cloud-commons-core</module>
         <module>cloud-commons-config</module>
         <module>cloud-commons-redis</module>
@@ -86,12 +85,6 @@
             <dependency>
                 <groupId>com.sech.commons</groupId>
                 <artifactId>cloud-commons-base</artifactId>
-                <version>${cloud.commons.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.sech.commons</groupId>
-                <artifactId>cloud-commons-pay</artifactId>
                 <version>${cloud.commons.version}</version>
             </dependency>
 
